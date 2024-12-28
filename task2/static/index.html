@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce Dashboard</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>ECommerce Metrics Dashboard</h1>
+
+    <!-- Section for Traffic Sources -->
+    <section>
+        <h2>Traffic Sources</h2>
+        <canvas id="trafficChart" width="400" height="200"></canvas>
+    </section>
+
+    <!-- Section for Sales Data -->
+    <section>
+        <h2>Sales Data</h2>
+        <table id="salesTable">
+            <thead>
+                <tr>
+                    <th>Transaction ID</th>
+                    <th>Customer Name</th>
+                    <th>Product Name</th>
+                    <th>Date</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <!-- Section for Conversion Rate -->
+    <section>
+        <h2>Conversion Rate</h2>
+        <canvas id="conversionChart" width="400" height="200"></canvas>
+    </section>
+
+    <script src="static/js/scripts.js"></script>
+</body>
+</html>
